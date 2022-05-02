@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background-color: #1b1b32;
+}
+
+.freecodecamp-logo-contenedor {
+  width: 100%;
+  height: 50px;
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.freecodecamp-logo {
+  height: 40px;
+}
+
+.container {
+  background-color: #2a2a40 ;
+  margin: 0 auto;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+  margin-top: 50px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+
+.container h1 {
+  margin-bottom: 20px;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.container > a {
+  padding: 20px 20px;
+  margin-top: 50px;
+  color: #1b1b32;
+  background-color: #55a42c;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+
+.container > a:hover {
+  background-color: orangered;
+  color: #f5f6f7;
+  transition: .4s;
+  -webkit-transition: .4s;
+  -moz-transition: .4s;
+  -ms-transition: .4s;
+  -o-transition: .4s;
+}
+
+.container input {
+  padding: 20px;
+  font-size: 50px;
+  width: 200px;
+  background-color: #d9edf7;
+  border: none;
+  border-radius: 2px;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  
+}
+
+.numbers, .romans {
+text-align: center;
+padding: 15px 30px;
+}
+
+/* Media Query: Large Smartphone (Vertical) */
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 95%;
+  }
+}
